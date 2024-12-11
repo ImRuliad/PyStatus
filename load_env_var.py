@@ -13,3 +13,5 @@ def get_discord_client_id():
 
     return CLIENT_ID
 
+    #error checking could be better here.
+
