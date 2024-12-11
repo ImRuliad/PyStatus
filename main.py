@@ -1,10 +1,10 @@
-from dotenv import load_dotenv
-import os
+import load_env_var
+
 
 def main():
-    load_dotenv()
 
-    CLIENT_ID = os.getenv("DISCORD_CLIENT_ID")
+
+    CLIENT_ID = load_env_var.get_discord_client_id()
     print(f" Your client ID is: {CLIENT_ID}")
 
 
