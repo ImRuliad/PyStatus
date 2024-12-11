@@ -1,7 +1,6 @@
 
-
 def main():
-    print("tesst")
+    print("add gitignore")
 
 
 
